@@ -1,0 +1,1 @@
+void indicate_battery(void);
