@@ -19,7 +19,7 @@
 
 #define LED_GPIO_NODE_ID DT_COMPAT_GET_ANY_STATUS_OKAY(gpio_leds)
 
-BUILD_ASSERT(DT_NODE_EXISTS(DT_ALIAS(led_redd)),
+BUILD_ASSERT(DT_NODE_EXISTS(DT_ALIAS(led_red)),
              "An alias for a red LED is not found for RGBLED_WIDGET");
 BUILD_ASSERT(DT_NODE_EXISTS(DT_ALIAS(led_green)),
              "An alias for a green LED is not found for RGBLED_WIDGET");
